@@ -1,14 +1,14 @@
 # config valid only for current version of Capistrano
 lock '3.6.0'
 
-set :application, 'sample'
+set :application, 'AWS'
 set :repo_url, 'https://github.com/nweninaing777/AWS_Task.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 set :branch, ENV['BRANCH'] || 'master'
 # Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, '/var/www/sample'
+ set :deploy_to, '/var/www/AWS'
 
 # Default value for :scm is :git
 # set :scm, :git
